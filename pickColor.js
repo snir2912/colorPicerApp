@@ -18,7 +18,7 @@ let btn = document.getElementById('btn').addEventListener('click', function() {
         console.log(colors);
         for (let i = 0; i < colors.length; i++) {
             let colorList = document.getElementById('colorList');
-            colorList.innerHTML = objColor.red + "," + objColor.green + "," + objColor.blue + "<br>";
+            colorList.innerHTML = objColor.red + "," + objColor.green + "," + objColor.blue;
         }
         let secondColor = document.getElementById('secondColor');
         secondColor.innerHTML = "<button id='btn'>pick a second color</button>";
