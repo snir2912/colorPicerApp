@@ -1,0 +1,94 @@
+.all_site {
+    width: 60vw;
+    background-color: beige;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.colors {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#red {
+    width: 33.33vw;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+#green {
+    width: 33.33vw;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+#blue {
+    width: 33.33vw;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+.LR {
+    color: red;
+}
+
+.LG {
+    color: green;
+}
+
+.LB {
+    color: blue;
+}
+
+.button {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn {
+    color: beige;
+    background-color: darkblue;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+#btn:hover {
+    color: darkblue;
+    border: darkblue 2px solid;
+    background-color: beige;
+}
+
+#colorPicker {
+    border: darkblue 1px solid;
+}
+
+#colorPicker {
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+#secondColorArea {
+    width: 30px;
+    height: 30px;
+    border: none;
+}

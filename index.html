@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mainCss.css">
+
+</head>
+
+<body>
+    <div class="all_site">
+        <h1>Color Picker</h1>
+        <p>after you select the colors, the app will create your color using the colors you select. After you picked the second color, you can save the RGB code with the save button. enjoy!</p>
+
+        <div class="colors">
+            <label for="" class="LR">Red</label>
+            <input type="range" min="0" max="255" id="red">
+            <label for="" class="LG">Green</label>
+            <input type="range" min="0" max="255" id="green">
+            <label for="" class="LB">Blue</label>
+            <input type="range" min="0" max="255" id="blue">
+        </div>
+        <br><br>
+        <div class="button" id="colorsDiv">
+            <br>
+            <button id="btn">Pick color</button>
+            <button id="btns">save favorite color</button>
+            <div id="colorPicker">your color is...</div>
+            <div id="secondColor"></div>
+            <div id="secondColorArea"></div>
+        </div>
+        <h4>my favorite color "rgb" code</h4>
+        <div id="colorList">
+
+        </div>
+    </div>
+
+    <script src="pickColor.js"></script>
+</body>
+
+</html>
