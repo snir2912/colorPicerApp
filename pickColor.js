@@ -3,7 +3,7 @@ let btn = document.getElementById('btn').addEventListener('click', function() {
     let green = document.getElementById('green');
     let blue = document.getElementById('blue');
     let colorPicker = document.getElementById('colorPicker');
-    colorPicker.innerText = ""
+    colorPicker.innerText = red.value + "," + green.value + "," + blue.value
     colorPicker.style.backgroundColor = `rgb(${red.value},${green.value},${blue.value})`;
     let saveButton = document.getElementById('btns').addEventListener('click', function() {
         let colors = [];
@@ -15,7 +15,7 @@ let btn = document.getElementById('btn').addEventListener('click', function() {
         }
         let objColor = new Colors(red.value, green.value, blue.value);
         colors.push(objColor)
-        console.log(colors);
+
         for (let i = 0; i < colors.length; i++) {
             let colorList = document.getElementById('colorList');
             colorList.innerHTML = objColor.red + "," + objColor.green + "," + objColor.blue;
@@ -25,6 +25,7 @@ let btn = document.getElementById('btn').addEventListener('click', function() {
         secondColor.addEventListener('click', function() {
             let secondColorPicker = document.getElementById('secondColorArea');
             secondColorPicker.style.backgroundColor = `rgb(${red.value},${green.value},${blue.value})`;
+            secondColorPicker.innerText = red.value + "," + green.value + "," + blue.value;
         })
     })
 });

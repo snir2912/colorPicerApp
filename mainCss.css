@@ -59,9 +59,13 @@ p {
 
 .button {
     margin: 0 auto;
-    width: 400px;
+    width: 600px;
     display: flex;
     justify-content: space-between;
+}
+
+button {
+    border-radius: 12px;
 }
 
 #btn {
@@ -82,13 +86,17 @@ p {
 }
 
 #colorPicker {
-    width: 30px;
+    text-align: center;
+    width: 85px;
     height: 30px;
-    border: none;
+    border: 1px solid black;
+    border-radius: 12px;
 }
 
 #secondColorArea {
-    width: 30px;
+    text-align: center;
+    width: 85px;
     height: 30px;
-    border: none;
+    border: 1px solid black;
+    border-radius: 12px;
 }
